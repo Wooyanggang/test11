@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-
 import React from 'react';
+import lo from './Logo123.png';
 
 const Header = ({ title }) => {
   return (
@@ -16,7 +16,7 @@ const Logo = () => {
   return (
     <h1 href='#' className='lo'>
       <a href='#'>
-        <img src='' alt="메인로고" />
+        <img src={lo} alt="메인로고" />
       </a>
     </h1>
   )

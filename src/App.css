@@ -197,10 +197,9 @@ table {
   background-color: #E5EEFA;
 }
 
-.header .logo img {
+.header .lo img {
   position: absolute;
   top: 10px;
-  left: 5%;
   width: 92px;
   height: 70px;
 }
