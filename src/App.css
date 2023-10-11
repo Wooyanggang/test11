@@ -32,7 +32,309 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* hTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 초기화 */
+
+.header {
+  position: relative;
+  width: 1000px;
+  height: 150px;
+  /* background-color: blue; */
+  margin: 30px auto;
+  color: black;
+  border-bottom: 1px solid gray;
+}
+
+.header a {
+  display: inline-block;
+  margin-right: 10px;
+  height: 50px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.header a:hover {
+  background-color: #E5EEFA;
+}
+
+.header .logo img {
+  position: absolute;
+  top: 10px;
+  left: 5%;
+  width: 92px;
+  height: 70px;
+}
+
+.header .headMenu {
+  position: absolute;
+  height: 50px;
+  right: 0;
+  text-decoration: none;
+  margin-right: 5%;
+}
+
+.header .headMenu li {
+  display: inline-block;
+}
+
+.header .subTitle {
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  font-size: 30px;
+}
+
+.body {
+  position: relative;
+  width: 1000px;
+  height: 500px;
+  margin: 30px auto;
+  color: black;
+}
+
+.body .budget {
+  display: block;
+}
+
+.body .budget div {
+  margin-bottom: 10px;
+}
+
+.body .budget fieldset {
+  position: absolute;
+  width: 450px;
+  border: 5px solid #CBDDF6;
+}
+
+.body .budget legend {
+  padding: 10px;
+  background-color: #6499E1;
+  color: white;
+  line-height: 20px;
+  margin-bottom: 5%;
+}
+
+
+.body .etc {
+  position: absolute;
+  top: 150px;
+}
+
+.body .etc div {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.body .etc fieldset {
+  position: absolute;
+  width: 450px;
+  border: 5px solid #CBDDF6;
+}
+
+.body .etc legend {
+  padding: 10px;
+  background-color: #6499E1;
+  color: white;
+  line-height: 20px;
+  margin-bottom: 5%;
+}
+
+.body .usage {
+  display: block;
+}
+
+.body .usage div {
+  margin-bottom: 10px;
+}
+
+.body .usage fieldset {
+  position: absolute;
+  right: 0;
+  width: 450px;
+  border: 5px solid #CBDDF6;
+}
+
+.body .usage legend {
+  padding: 10px;
+  background-color: #6499E1;
+  color: white;
+  line-height: 20px;
+  margin-bottom: 5%;
+}
+
+.body .prev {
+  position: absolute;
+  bottom: 0;
+  line-height: 35px;
+}
+
+.body .prev a {
+  display: inline-block;
+  height: 40px;
+  width: 90px;
+  color: #888;
+  text-align: center;
+  text-decoration: none;
+  background-color: #CCC;
+  border-radius: 60%;
+  vertical-align: center;
+}
+
+.body .next {
+  position: absolute;
+  bottom: 0;
+  left: 130px;
+  line-height: 35px;
+}
+
+.body .next a {
+  display: inline-block;
+  height: 40px;
+  width: 90px;
+  color: #DDD;
+  text-align: center;
+  text-decoration: none;
+  background-color: #7EAAE6;
+  border-radius: 60%;
+  vertical-align: center;
 }
